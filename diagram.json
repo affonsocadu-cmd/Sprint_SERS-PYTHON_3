@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "ChargeGrid Team",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-photoresistor-sensor", "id": "ldr", "top": -120, "left": -150, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot", "top": 120, "left": -150, "attrs": {} },
+    { "type": "wokwi-relay", "id": "relay", "top": -80, "left": 180, "attrs": {} },
+    { "type": "wokwi-led", "id": "led_green", "top": 60, "left": 180, "attrs": { "color": "green" } },
+    { "type": "wokwi-led", "id": "led_red", "top": 120, "left": 180, "attrs": { "color": "red" } }
+  ],
+  "connections": [
+    [ "uno:GND.1", "ldr:GND", "black", [ "v0" ] ],
+    [ "uno:5V", "ldr:VCC", "red", [ "v0" ] ],
+    [ "uno:A0", "ldr:AO", "green", [ "v0" ] ],
+    [ "uno:GND.1", "pot:GND", "black", [ "v0" ] ],
+    [ "uno:5V", "pot:VCC", "red", [ "v0" ] ],
+    [ "uno:A1", "pot:SIG", "blue", [ "v0" ] ],
+    [ "uno:GND.1", "relay:GND", "black", [ "v0" ] ],
+    [ "uno:5V", "relay:VCC", "red", [ "v0" ] ],
+    [ "uno:7", "relay:IN", "orange", [ "v0" ] ],
+    [ "uno:2", "led_green:A", "green", [ "v0" ] ],
+    [ "uno:GND.1", "led_green:C", "black", [ "v0" ] ],
+    [ "uno:4", "led_red:A", "red", [ "v0" ] ],
+    [ "uno:GND.1", "led_red:C", "black", [ "v0" ] ]
+  ]
+}
