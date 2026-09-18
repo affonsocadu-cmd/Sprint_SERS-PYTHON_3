@@ -1,7 +1,7 @@
 # Sprint_SERS-PYTHON_3
-# ⚡ ChargeGrid - Sprint 3
+#  ChargeGrid - Sprint 3
 
-## 👥 Integrantes
+##  Integrantes
 * **Carlos Affonso** - RM: 569676
 * **Gabriel Oliveira Gusmão Florêncio dos Santos** - RM 573747
 * **Gustavo de Souza Abreu** - RM 574080
@@ -10,14 +10,14 @@
 * **Temitope Kuku da Silva Ogunbanjo** - RM 573772
 ---
 
-## 📌 Sobre o Projeto
+##  Sobre o Projeto
 O **ChargeGrid** é um sistema de gerenciamento para estações de recarga de veículos elétricos alimentadas por energia solar. 
 
 Nesta **Sprint 3**, desenvolvemos o protótipo funcional do controle de recarga utilizando um **Arduino Uno**. O objetivo principal é garantir que a estação só libere a energia para o veículo quando houver geração solar suficiente, otimizando o uso de fontes renováveis.
 
 ---
 
-## 🛠️ Componentes e Circuito
+##  Componentes e Circuito
 
 A simulação do protótipo foi montada no Wokwi utilizando os seguintes componentes:
 
@@ -31,7 +31,7 @@ A simulação do protótipo foi montada no Wokwi utilizando os seguintes compone
 
 ---
 
-## ⚙️ Funcionamento do Código
+##  Funcionamento do Código
 
 1. O Arduino lê continuamente os valores do **LDR (A0)** e do **Potenciômetro (A1)**.
 2. Se a luminosidade solar captada for **maior que 20%**:
