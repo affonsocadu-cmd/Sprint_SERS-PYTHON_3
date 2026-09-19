@@ -51,5 +51,6 @@ A simulação do protótipo foi montada no Wokwi utilizando os seguintes compone
   "power_w": 3410.0,
   "status": "CHARGING"
 }
+```
 ##  Link
 * **Vídeo de Demonstração (YouTube):** https://youtu.be/2Elt3ZOGwrc
